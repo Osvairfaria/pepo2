@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+#navbar-items a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: inherit;
+}
+
+#navbar-items a:hover {
+    background: rgba(29, 27, 27, 0.712);
+    color: #eee;
+    padding: 30px 0;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+
+    .headline {
+        font-size: 2.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 50px;
+        letter-spacing: 2px;
+    }
+
+    /* Navbar */
+
+    #navbar {
+        width: 100%;
+        background-image: linear-gradient(to right, #151522, #68d15e );
+        color: #222;
+        font-size: 18px;
+        height: 100px;
+        position: fixed;
+    }
+
+    #navbar-container {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        height: 100%;
+        
+    }
+
+    #navbar-items {
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    #navbar-items li {
+        padding: 10px;
+    }
+
+/* abertura */
+
+#abertura {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;  
+    background-image: url("image/logo-fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+#abertura-container {
+    text-align: center;
+    margin-top: 130px;
+}
+
+#abertura-container h2 {
+    font-size: 2.9rem;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+/* Nosso Clientes */
+
+#clientes {
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 0px;
+}
+
+#clientes-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-items:center;
+padding: 15px;
+}
+
+.video1 {
+    width: 97%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    background: rgba(51, 51, 51, 0.068);
+    padding: 15px 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.video1 p {
+    text-align: center;
+    height: 300px;
+    width: 75%;
+    margin: 0px 20px 0px;
+    font-size: 19px;
+    color: #333;
+    font-weight: bold
+    
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    width: 165px;
+    height: 55px;
+    background-color: #10cc48;
+    padding: 9px 50px;
+    border-radius: 8px;
+    color: rgb(12, 12, 12);
+}
+
+.video1 a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Quem somos */
+
+#features {
+    width: 100%;
+    height: 100%;
+    background: #151522f8;
+    color: #eee;
+    padding: 50px;
+    line-height: 1.4;
+    }
+
+    .quem-somos {
+        width: 90%;
+        text-align: justify;
+        font-size: 1.3rem;
+        font-family:Arial, Helvetica, sans-serif;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    #features-container {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 50px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(51, 51, 51, 0.39);
+        padding:  10px;
+        border-radius: 5px;
+    }
+
+    .feature-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .feature p {
+        text-align: center;
+    }
+
+    /* Nossos Serviços */
+
+    #produto {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #produto-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #items {
+        width: 650px;
+    }
+
+    .text-serv {
+        font-size: 25px;
+        padding: 50px;
+        line-height: 1.4;
+    }
+    #items .items {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 40px;
+        margin: 15px 0;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #items .items i {
+        padding: 0 0 10px 0;
+        
+    }
+
+    #items .items .text {
+        font-size: 17px;
+        }
+
+    .banner {
+        width: 60%;
+        height: auto;
+    }
+
+
+/* importante */
+
+#importante {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+    background-image: url("image/slogo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+.importante {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+
+
+.importante p {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    font-size: 17.6px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+
+
+#importante-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.importante .importante-img {
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+/* Galeria */ 
+
+#galeria {
+    width: 100%;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+#galeria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+}
+
+.galeria-img {
+    display: inline-block;
+    width: 380px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* Footer */
+#footer{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, #11c05f, #dee6dea2 );
+    color: #333;
+}
+
+#footer .h3 {   
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+ 
+}
+#footer-container {
+   
+display: flex;
+justify-content: space-between;
+margin: 0 30px;
+
+    }
+
+    #footer-container ul {
+        list-style: none;
+
+    } 
+    #footer-container .contato li {
+        padding: 8px;
+        font-size: 16px;
+    }
+    #footer-container li a {
+        text-decoration: none;
+        color: inherit;
+    }
+    #footer-container .contato li a:hover {
+        color: #e9eee8;
+        border-radius: 5px;
+        opacity: 2.0;   
+    }
+
+    #footer-container li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .icone-rede {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 45px;
+        width: 150px;
+        
+        }
+
+    #footer .insigt {
+        margin-top: 30px;
+        text-align:  center;
+        color: rgba(66, 64, 64, 0.692);
+        font-size: 12px;
+    }
+

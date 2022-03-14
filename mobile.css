@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ #navbar {
+    height: 180px;
+    font-size: 20px;
+}
+
+#navbar-container {
+    flex-direction: row;
+    padding: 15px 10px;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#navbar-items li:nth-child(1n+1) {
+    border-bottom: 1px solid #333;
+}
+
+#navbar-items li:nth-child(4) {
+    border-bottom: 1px solid rgba(17, 17, 17, 0);
+}
+
+#navbar-items a:hover {
+    background: rgba(29, 27, 27, 0.712);
+    color: #fff;
+    padding: 0 0px;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+#clientes {
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cliente {
+    width: 50px;
+}
+
+#abertura {
+    background-image: url("image/logo-fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+#abertura-container {
+    grid-template-columns: 1fr;
+}
+
+#abertura-container .abertura:nth-child(2) {
+    margin: 15px 0;
+}
+
+   /*Que somos  
+
+.quem-somos {
+    height: auto;
+    width: 300px;
+    text-align: justify;
+    font-size: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background: rgb(168, 62, 62);
+    margin: 10px 0;
+    padding:  20px;
+    border-radius: 5px;
+}
+
+
+/* Nossos serviços 
+
+#produto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#items {
+    width: 650px;
+}
+
+.text-serv {
+    width: 100%;
+    font-size: 27px;
+    padding: 30px;
+}
+#items .items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    text-align: justify;
+
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.items {
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+}
+
+/* Testemuho 
+
+#testemunho-conatainer {
+    flex-direction: column;
+    text-align: center;
+}
+
+.testemunho {
+
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        background: #333;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 5px;
+}
+
+.testemunho-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.testemunho-2 p {
+    padding-top: 30px;
+}
+
+/* Galeria 
+
+#galeria-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.galeria-img {
+    width: 100%;
+}
+*/
